@@ -1,0 +1,80 @@
+html body {
+    padding: 0%;
+    margin: 0%;
+    width: 100vh;
+    height: 100wh;
+    background-color: blue;
+    font-family: 'Courier New', Courier, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+*{
+    box-sizing: border-box;
+}
+body {
+    padding-top: 3rem;
+}
+main {
+    width: 70%;
+    height: 50%;
+    margin: auto;
+    margin-top: 3rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+form {
+    background-color: white;
+    padding: 1rem;
+    border-radius: 5px;
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+.register {
+    padding: 1rem;
+    background-color: #1841b4;
+    border-radius: 5px;
+    color: white;
+    margin-left: 1rem;
+    margin-right: 2rem;
+    font-size: large;
+    border: none;
+}
+.h4 {
+    margin-left: 1rem;
+    font-size: large;
+}
+.underline {
+ border-bottom: 2px solid blue;
+}
+.input {
+    padding: 1rem;
+    margin-left: 1rem;
+    margin-right: 2rem;
+    font-size: large;
+    color: #e5e5e5;
+    border: 1px solid#dddcdccc;
+    border-radius: 4px;
+    border-bottom-width: 3px;
+}
+.terms{
+display: flex;
+gap:1rem
+}
+.login {
+    border: 0;
+    background-color: white;
+    color: #1b1388;
+}
+.account {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.signup {
+    display: flex;
+    color: white;
+    font-size: 3rem;
+    align-items: center;
+    justify-content: center;
+    font-weight: 800;
+    padding: 1rem;
+}
